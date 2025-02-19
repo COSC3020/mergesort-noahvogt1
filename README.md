@@ -26,6 +26,6 @@ This adds another $n$ number of times. This will in the end provide us with a ov
 $T(n) \in \Theta (n^2log(n))$. Definitly a lot slower than the regular mergesort because of the extra
 n iteration to keep it in place but hey I guess it'll save a little memory!
 
-*Also I feel as I should add this disclaimer: I am thouroughly sorry if my mergesort code is horrendous.
+*Also I feel as though I should add this disclaimer: I am thouroughly sorry if my mergesort code is horrendous.
 I feel like it would be a lot easier to understand if I had used some extra spacing, but I feel that it
 is semi very efficient?*

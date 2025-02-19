@@ -1,4 +1,7 @@
 # Mergesort
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I looked at stack overflow for an idea on how to even start this. I ended up not using its route because it didn't make much sense to me.
 
 Implement an iterative (no recursive calls) and in-place version of mergesort.
 Use the template I've provided in `code.js`. Test your new function; I've

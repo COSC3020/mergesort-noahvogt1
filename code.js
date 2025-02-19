@@ -9,10 +9,7 @@ function mergesort(array) {
       var leftOffset = 0;
       var rightOffset = 0;
       while (left + leftOffset < mid && mid + rightOffset < right) {
-        console.log('Array Before Test: ' + arr);
-        console.log(left + ", " + mid);
         if (array[left + leftOffset] > array[mid + rightOffset]) {
-          console.log('In Place Swap');
           var temp = array[left + leftOffset];
           array[left + leftOffset] = array[mid + rightOffset];
           var tempTwo = array[left + leftOffset + 1];

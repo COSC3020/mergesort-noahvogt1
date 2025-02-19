@@ -17,3 +17,11 @@ part of the array each recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+
+The outer loop will run aproximatly $log_2(n)$  times because it is multiplying the size by 2 until
+the size is bigger than the array length. The second loop will provide an extra $n$ number of times. 
+Inside the while loop we have another for loop that will run over every element in the worst case.
+This adds another $n$ number of times. This will in the end provide us with a overall complexity of
+$T(n) \in \Theta (n^2log(n))$. Definitly a lot slower than the regular mergesort because of the extra
+n iteration to keep it in place but hey I guess it'll save a little memory!
